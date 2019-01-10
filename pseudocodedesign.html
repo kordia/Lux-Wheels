@@ -7,28 +7,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
+    <style>
+        body {
+            font-size: 26px;
+        }
+    </style>
 </head>
 <body>
     <h1>Pseudocode Design</h1>
     
     <h2>Top Page Nav-Bar</h2>
+    <!--Thin layer at top of the page-->
+    <ol>
+        <li>Company Number</li>
+        <!--Farthest left corner of NavBar-->
+        <li>Hours of Operation</li>
+        <!--Right side of Navbar-->
+        <li>Virtual Discount Page</li>
+        <!--This is seperate page that has code funnctions that lower price onn product-->
+        <ol>
+            <li>Discount One</li>
+            <!--Spend more than 2,0000 and get 30 percent off-->
+            <li>Discount Two</li>
+            <!--10 percent discounnt-->
+        </ol>
+        <li>Cart</li>
+        <!--Cart button should display the amount of products in cart , also it should contain any discounts or Services that was added -->
+    </ol>
+
+    <h2>Nav-Bar</h2>
+    <!--Medium size navbar right under the top pae navbar-->
     <ol>
         <li>Home</li>
+        <!--Link to top of page-->
+        <li>About Us</li>
+        <li>Vehicles</li>
+        <!--This section has car prices , drop off pick up calendar , and add to cart button-->    
         <li>Services</li>
-            <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ol>
-        <li>Selection</li>
-        <li></li>
-        <li></li>
-        <li>About</li>
-        <li></li>
-        <li></li>
+        <!--Each service has its own funnction that allows user to add this type of purchase to their cart-->
+        <!--Each service also has is own description of how they operate-->
+        <ul>
+            <li>Reservations</li>
+            <li>Wedding</li>
+            <li>Music Videos</li>
+            <li>Vacations</li>
+            <li>Chauffer</li>
+            <li>Corporate Business </li>
+        </ul>
+        <li>Media</li>
+        <!--2 videos of product-->
+        <li>Policy</li>
+        <!--Policy page regarding product-->
+        <ol>
+            <li>Policy Page</li>
+        </ol>  
     </ol>
+
+    <h2>About Us</h2>
+    <p>Team Info</p>
+
+    <h2>Vehicle</h2>
+    <ul>
+        <li>Sports Car</li>
+        <!--2 Sport Cars-->
+        <li>Coupe</li>
+        <!--2 coupes-->
+        <li>SUV</li>
+        <!--2 SUV-->
+        <li>Motorcycle</li>
+        <!--One motorcycle-->
+        <li>Private Jet</li>
+        <!--One private jet-->
+    </ul>
+
+    <h2>Media</h2>
+    <p>Entertainment Videos</p>
+    <li>Lambo Race</li>
+    <li>Private Jet Video</li>
+
+    <h2>Policy</h2>
+    <li>Insurance Policy</li>
+    <li>Return Policy</li>
+    <li>Rules for Cars</li>
+
 </body>
 </html>
