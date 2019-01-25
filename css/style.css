@@ -1,0 +1,48 @@
+.main-nav li a{
+    text-align: none;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    color:black;
+}
+.main-nav ul{
+    text-align: none;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+.main-nav li {
+    float: left;
+    list-style: none;
+    margin-right: 100px;
+    padding-right: 20px;
+}
+.image-placeholder {
+    background-color: #eee;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 260px;
+}
+
+.image-placeholder > h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+.line{
+    background-color: #eee;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 260px;
+}
+
+.line > h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+.get{
+    background-color: red;
+}
