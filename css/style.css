@@ -46,3 +46,16 @@
 .get{
     background-color: red;
 }
+.greeting p{
+    color: red;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.top-bar{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.about h1 {
+    color: red;
+}
