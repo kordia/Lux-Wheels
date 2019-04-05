@@ -17,6 +17,16 @@
     margin-right: 100px;
     padding-right: 20px;
 }
+.control a:hover{
+    color:red;
+}
+.image-pic{
+    background-color: #eee;
+    display: flex;
+    height: 450px;
+    margin: 5px;
+    width: 950px;
+}
 .image-placeholder {
     background-color: #eee;
     display: flex;
@@ -58,4 +68,16 @@
 }
 .about h1 {
     color: red;
+}
+.product{
+    margin-right: 45px;
+    margin-top: 20px;
+}
+.brand{
+    margin-right: 45px;
+    margin-top: 20px;
+}
+.package{
+    margin-right: 45px;
+    margin-top: 20px;
 }
