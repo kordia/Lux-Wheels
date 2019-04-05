@@ -17,6 +17,7 @@
     margin-right: 100px;
     padding-right: 20px;
 }
+
 .control a:hover{
     color:red;
 }
@@ -80,4 +81,7 @@
 .package{
     margin-right: 45px;
     margin-top: 20px;
+}
+.contact{
+    margin-top: 30px;
 }
