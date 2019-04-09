@@ -1,4 +1,36 @@
+.logo p{
+    color: red;
+    font-size: 20px;
+}
 
+.top-bar a{
+    text-align: none;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    color:black;
+}
+.top-bar ul{
+    text-align: none;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+.top-bar li {
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+}
+.top-bar{
+    margin-left: 750px;
+}
+.top-bar-inner a:hover{
+    color:red;
+    text-decoration: none;
+}
+.main-nav{
+    margin-right: 40px;
+}
 .main-nav li a{
     text-align: none;
     text-decoration: none;
@@ -15,10 +47,14 @@
 .main-nav li {
     float: left;
     list-style: none;
-    margin-right: 100px;
+    margin-right: 85px;
     padding-right: 20px;
 }
 
+.sum p{
+    color: black;
+    font-size: 20px;
+}
 .control a:hover{
     color:red;
 }
@@ -56,9 +92,7 @@
     text-align: center;
     width: 100%;
 }
-.get{
-    background-color: red;
-}
+
 .greeting p{
     color: red;
     font-size: 20px;
@@ -69,12 +103,16 @@
     margin-top: 25px;
     margin-bottom: 20px;
 }
+
 .about h1 {
     color: red;
 }
 .product{
     margin-right: 45px;
     margin-top: 20px;
+}
+.product p{
+    color: black;
 }
 .brand{
     margin-right: 45px;
@@ -87,12 +125,37 @@
 .contact{
     margin-top: 30px;
 }
+.second-set p{
+    color: black;
+}
+.second-set a{
+    color: black;
+}
 .pic-1{
     margin-right: 40px;
 }
+.third-set a{
+    color: black;
+}
+.product a{
+    color: black;
+}
 .product a:hover{
     color: red;
+    text-decoration: none;
 }
+.brand a:hover{
+    color: red;
+    text-decoration: none;
+}
+.third-set a:hover{
+    color: red;
+    text-decoration: none;
+}
+.third-set p{
+    color: black;
+}
+
 .pic-2{
     margin-right: 40px;
 }
