@@ -1,3 +1,4 @@
+
 .main-nav li a{
     text-align: none;
     text-decoration: none;
@@ -21,12 +22,13 @@
 .control a:hover{
     color:red;
 }
+
 .image-pic{
     background-color: #eee;
     display: flex;
     height: 450px;
     margin: 5px;
-    width: 950px;
+    width: 910px;
 }
 .image-placeholder {
     background-color: #eee;
@@ -84,4 +86,40 @@
 }
 .contact{
     margin-top: 30px;
+}
+.pic-1{
+    margin-right: 40px;
+}
+.product a:hover{
+    color: red;
+}
+.pic-2{
+    margin-right: 40px;
+}
+.pic-4{
+    margin-right: 40px;
+}
+.pic-5{
+    margin-right: 40px;
+}
+.pic-6{
+    margin-right: 40px;
+}
+.pic-7{
+    margin-right: 40px;
+}
+.pic-8{
+    margin-right: 40px;
+}
+.pic-9{
+    margin-right: 40px;
+}
+.front{
+    margin-right: 80px;
+}
+.middle{
+    margin-right: 80px;
+}
+.side{
+    margin-right: 80px;
 }
