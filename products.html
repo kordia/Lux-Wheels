@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <body style="background-color:gray;"></body>
     <title>PRODUCTS</title>
 </head>
@@ -21,30 +22,64 @@
         </div>
     </div>
     <div class="get">
-            <div class='logo container'>
-                <div class='row'>
-                    <div class='col-sm-6'>
-                        <img class="img-responsive" src="img/Lux-rentals.png">
-                    </div>
-                    <div class='col-sm-6'>
-                        <p>Welcome to Lux Rentals!</p>
-                    </div>
+        <div class='logo container'>
+            <div class='row'>
+                <div class='col-sm-6'>
+                    <img class="img-responsive" src="img/Lux-rentals.png">
+                </div>
+                <div class='col-sm-6'>
+                    <p>Welcome to Lux Rentals!</p>
                 </div>
             </div>
+        </div> 
+    </div>
+    <div class="main-nav container">
+        <div class='row'>
+            <div class='control col-sm-12'>
+                <ul>
+                    <li><a href="HOME">Home</a></li>
+                    <li><a href="ABOUT">About Us</a></li>
+                    <li><a href="PRODUCTS">Products</a></li>
+                    <li><a href="CONTACT">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="main-nav container">
-            <div class='row'>
-                <div class='control col-sm-12'>
-                    <ul>
-                        <li><a href="HOME">HOME</a></li>
-                        <li><a href="ABOUT">ABOUT</a></li>
-                        <li><a href="PRODUCTS">PRODUCTS</a></li>
-                        <li><a href="CONTACT">CONTACT</a></li>
-                    </ul>
-                </div>
+    </div> 
+    <div class="main-nav container">
+        <div class='row'>
+            <div class='upper col-sm-12'>
+                <img class="img-responsive" src="img/skinner-1.jpg">
             </div>
         </div>
     </div>
+    <div class="top-menu container">
+        <div class='row'>
+            <div class="list col-sm-3">
+                <h4>Name of car:</h4>
+                <select>
+                    <option></option>
+                    <option>RANGE ROVER</option>
+                    <option>TESLA</option>
+                    <option>BENTLEY CONTINENTAL GT</option>
+                    <option>FERRARI PORTOFINO</option>
+                    <option>MERCEDES BENZ</option>
+                    <option>LINCOLN NAVIGATOR</option>
+                    <option>ROLLS-ROYCE GHOST</option>
+                    <option>2019 INFINITI Q50</option>
+                    <option>2019 BMW X5</option>
+                </select>
+            </div>
+            <div class="reserve col-sm-3">
+                <h4>Start Date:</h4> <input type='date' name="start">
+            </div>
+            <div class="return col-sm-3">
+                <h4>Return Date:</h4> <input type='date' name="return">
+            </div>
+            <div class="sum col-sm-3">
+                <h4>Submit Your Order!</h4> <input class="OrderSubmit" id="submitButton" type="submit" value="Submit" />
+            </div>
+        </div>
+    </div> 
     <div class="first-set">
         <div class='product container'>
             <div class='row'>
@@ -52,22 +87,34 @@
                     <div class="image-placeholder">
                         <img class="img-responsive" src="img/2019-land-rover-range-.jpg">
                     </div>
-                    <a href="RANGE ROVER">RANGE ROVER</a>
-                    <p>$450</p>
+                    <div class="set-1 col-sm-10">
+                        <a href="RANGE ROVER">RANGE ROVER</a>
+                    </div>
+                    <div class="set-2 col-sm-2">
+                        <p>$450</p>
+                    </div>
                 </div>
                 <div class="pic-2 col-sm-3">
                     <div class="image-placeholder">
                         <img class="img-responsive" src="img/2019-tesla-model-s.jpg">
                     </div>
-                    <a href="TESLA">TESLA</a>
-                    <p>$750</p>
+                    <div class="set-3 col-sm-10">
+                        <a href="TESLA">TESLA</a>
+                    </div>
+                    <div class="set-4 col-sm-2">
+                        <p>$750</p>
+                    </div>
                 </div>
                 <div class="pic-3 col-sm-3">
                     <div class="image-placeholder">
                         <img class="img-responsive" src="img/2019-bentley-continental-gt.jpg">
                     </div>
-                    <a href="BENTLEY CONTINENTAL GT">BENTLEY CONTINENTAL GT</a>
-                    <p>$650</p>
+                    <div class="set-5 col-sm-10">
+                        <a href="BENTLEY CONTINENTAL GT">BENTLEY </a>
+                    </div>
+                    <div class="set-6 col-sm-2">
+                        <p>$650</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,22 +126,34 @@
                     <div class="image-placeholder">
                         <img class="img-responsive" src="img/2019-ferrari-portofino.jpg">
                     </div>
-                    <a href="FERRARI PORTOFINO">FERRARI PORTOFINO</a>
-                    <p>$750</p>
+                    <div class="set-7 col-sm-10">
+                        <a href="FERRARI PORTOFINO">FERRARI PORTOFINO</a>
+                    </div>
+                    <div class="set-8 col-sm-2">
+                        <p>$750</p>
+                    </div>
                 </div>
                 <div class="pic-5 col-sm-3">
                     <div class="image-placeholder">
                         <img class="img-responsive" src="img/2019 Mercedes-Benz A-Class Sedan .jpg">
                     </div>
-                    <a href="MERCEDES BENZ">MERCEDES BENZ</a>
-                    <p>$450</p>
+                    <div class="set-9 col-sm-10">
+                        <a href="MERCEDES BENZ">MERCEDES BENZ</a>
+                    </div>
+                    <div class="set-10 col-sm-2">
+                        <p>$450</p>
+                    </div>
                 </div>
                 <div class="pic-6 col-sm-3">
                     <div class="image-placeholder">
                         <img class="img-responsive" src="img/2019_lincoln_navigator.jpg">
                     </div>
-                    <a href="LINCOLN NAVIGATOR">LINCOLN NAVIGATOR</a>
-                    <p>$650</p>
+                    <div class="set-11 col-sm-10">
+                        <a href="LINCOLN NAVIGATOR">LINCOLN NAVIGATOR</a>
+                    </div>
+                    <div class="set-12 col-sm-2">
+                        <p>$650</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -106,29 +165,52 @@
                     <div class="image-placeholder">
                         <img class="img-responsive" src="img/2019-Rolls-Royce-Ghost.png">
                     </div>
-                    <a href="ROLLS-ROYCE GHOST">ROLLS-ROYCE GHOST</a>
-                    <p>$850</p>
+                    <div class="set-13 col-sm-10">
+                        <a href="ROLLS-ROYCE GHOST">ROLLS-ROYCE</a>
+                    </div>
+                    <div class="set-14 col-sm-2">
+                        <p>$850</p>
+                    </div>
                 </div>
                 <div class="pic-8 col-sm-3">
                     <div class="image-placeholder">
                         <img class="img-responsive" src="img/2019-infiniti-q50-sport-sedan.jpg">
                     </div>
-                    <a href="2019 INFINITI Q50">2019 INFINITI Q50</a>
-                    <p>$550</p>
+                    <div class="set-15 col-sm-10">
+                        <a href="2019 INFINITI Q50">2019 INFINITI Q50</a>
+                    </div>
+                    <div class="set-16 col-sm-2">
+                        <p>$550</p>
+                    </div>
                 </div>
                 <div class="pic-9 col-sm-3">
                     <div class="image-placeholder">
                         <img class="img-responsive" src="img/2019_BMW_X5.png">
                     </div>
-                    <a href="2019 BMW X5">2019 BMW X5</a>
-                    <p>$550</p>
+                    <div class="set-17 col-sm-10">
+                        <a href="2019 BMW X5">2019 BMW X5</a>
+                    </div>
+                    <div class="set-18 col-sm-2">
+                        <p>$550</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
+    <div class="bottom">
+        <div class='inside container'>
+            <div class='row'>
+                <div class='cell col-sm-4'>
+                    <p>Phone: 334-333-4569</p>
+                </div>
+                <div class='email col-sm-4'>
+                    <p>Email: luxrentals603@gmail.com</p>
+                </div>
+                <div class='email col-sm-4'>
+                    <p>Adress: 454 Mulberry Ln. San Diego, CA</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

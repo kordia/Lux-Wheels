@@ -2,7 +2,12 @@
     color: red;
     font-size: 20px;
 }
-
+.cell p{
+    color: red;
+}
+.email{
+    color: red;
+}
 .top-bar a{
     text-align: none;
     text-decoration: none;
@@ -104,7 +109,7 @@
     margin-bottom: 20px;
 }
 
-.about h1 {
+.about h3 {
     color: red;
 }
 .product{
@@ -148,12 +153,16 @@
     color: red;
     text-decoration: none;
 }
+
 .third-set a:hover{
     color: red;
     text-decoration: none;
 }
 .third-set p{
     color: black;
+}
+.upper{
+    margin-top: 20px;
 }
 
 .pic-2{
@@ -185,4 +194,13 @@
 }
 .side{
     margin-right: 80px;
+}
+.top-menu{
+    margin-right: 20px;
+}
+.bottom{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: black;
 }
