@@ -1,24 +1,24 @@
-* body{
-    background: grey;
-}
-.header {
-    position: relative;
-    width: 100%;
-    height: auto;
+*body{
+    background-color : grey;
 }
 
-.top-bar {
-    width: 100%;
-    /*margin-top: 25px;
-    padding-left: 20px;
-    margin-bottom: 20px;*/
+.profile{
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 60%;
 }
 
-.top-bar li {
-    text-align: center;
-    list-style: none;
-    padding-right: 20px;
+.log a:hover{
+    color: red;
+    text-decoration: none;
 }
+.sign a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
 
 .main-nav li a{
     text-align: none;
@@ -48,20 +48,12 @@
     display: inline;
     color:black;
 }
-.top-bar ul{
-    text-align: none;
-    text-decoration: none;
-    list-style: none;
-    display: inline;
-}
 
 .logo p{
     color: red;
     font-size: 20px;
 }
-.top{
-    margin-top: 20px;
-}
+
 .front{
     margin-right: 80px;
     margin-bottom: 20px;
@@ -78,9 +70,8 @@
     color: red;
 }
 .submit{
-    color: white;
-    width: 100px;
-    background: black;
+    color: rgb(8, 8, 8);
+
 }
 .contact{
     color: black;
@@ -117,9 +108,11 @@
 }
 
 @media (min-width: 768px){
-
+    body{
+        background: grey;
+    }
    .top-bar{
-       margin-right: 20px;
+        /*padding-left: 34% */
    }
    
     .news h2{
@@ -133,9 +126,6 @@
     }
     
  
-    .top-bar{
-        margin-left: 750px;
-    }
     .top-bar-inner a:hover{
         color:red;
         text-decoration: none;
@@ -155,14 +145,12 @@
     }
     
     .image-pic{
-        background-color: #eee;
         display: flex;
         height: 450px;
         margin: 5px;
         width: 910px;
     }
     .image-placeholder {
-        background-color: #eee;
         display: flex;
         height: 180px;
         margin: 5px;
