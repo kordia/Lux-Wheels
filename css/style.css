@@ -83,6 +83,26 @@
 .product a{
     color: black;
 }
+.product-2{
+    margin-top: 40px;
+}
+.product-2 a{
+    color: black;
+}
+.product-2 a:hover{
+    color: red;
+    text-decoration: none;
+}
+.product-3{
+    margin-top: 40px;
+}
+.product-3 a{
+    color: black;
+}
+.product-3 a:hover{
+    color: red;
+    text-decoration: none;
+}
 .second-set p{
     color: black;
 }
@@ -107,13 +127,12 @@
     margin-bottom: 20px;
 }
 
+
 @media (min-width: 768px){
     body{
         background: grey;
     }
-   .top-bar{
-        /*padding-left: 34% */
-   }
+
    
     .news h2{
         color: red;
@@ -246,9 +265,24 @@
     .pic-9{
         margin-right: 40px;
     }
-   
+   .product-2{
+        margin-right: 40px;
+   }
+   .product-3{
+    margin-right: 43px;
+   }
+   .resent{
+       margin-top: 10px;
+       margin-right: 45px;
+   }
+   .pay{
+       margin-bottom: 10px;
+   }
+   .cash{
+       margin-right: 40px;
+   }
     .top-menu{
-        margin-right: 20px;
+        margin-right: 40px;
     }
     .bottom{
         margin-top: 20px;
