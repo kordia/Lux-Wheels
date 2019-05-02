@@ -126,8 +126,36 @@
 .awards img{
     margin-bottom: 20px;
 }
-
-
+.car-1{
+    margin-right: 40px;
+}
+.car-2{
+    margin-right: 40px;
+}
+.car-3{
+    margin-right: 40px;
+}
+.car-4{
+    margin-right: 40px;
+}
+.car-5{
+    margin-right: 40px;
+}
+.car-6{
+    margin-right: 40px;
+}
+.car-7{
+    margin-right: 40px;
+}
+.car-8{
+    margin-right: 40px;
+}
+.car-9{
+    margin-right: 40px;
+}
+.get{
+    margin-top: 20px;
+}
 @media (min-width: 768px){
     body{
         background: grey;
@@ -265,30 +293,57 @@
     .pic-9{
         margin-right: 40px;
     }
+    .product-1{
+        margin-right: 43px;
+    }
    .product-2{
         margin-right: 40px;
    }
    .product-3{
     margin-right: 43px;
    }
+   .product-4{
+    margin-right: 43px;
+   }
+   .product-5{
+    margin-right: 43px;
+   }
+   .product-6{
+    margin-right: 43px;
+   }
+   .product-7{
+    margin-right: 43px;
+   }
+   .product-8{
+    margin-right: 43px;
+   }
+   .product-9{
+    margin-right: 43px;
+   }
+
    .resent{
        margin-top: 10px;
        margin-right: 45px;
    }
    .pay{
-       margin-bottom: 10px;
+       margin-bottom: 20px;
    }
    .cash{
        margin-right: 40px;
    }
     .top-menu{
-        margin-right: 40px;
+        margin-right: 20px;
     }
     .bottom{
-        margin-top: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
         background: black;
+    }
+
+    .inside{
+        margin-top: 20px;
+        margin-right:47px;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 20px;
     }
 }
 
