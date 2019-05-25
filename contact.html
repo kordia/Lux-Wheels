@@ -6,103 +6,81 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <title>CONTACT</title>
 </head>
 <body>
-    <div class="top-bar container">
-        <div class='row'>
-            <div class='profile container'>
-                <div class='log col-sm-2'>
-                    <a href="LOG">Log-In</a></li>
-                </div>
-                <div class='sign col-sm-2'>
-                    <a href="SIGN">Sign-In</a></li>
-                </div>
-            </div>  
-        </div>
-    </div>
-    <div class="get">
-        <div class='logo container'>
-            <div class='row'>
-                <div class='col-sm-6'>
-                    <img class="img-responsive" src="img/Lux-rentals.png">
-                </div>
-                <div class='col-sm-6'>
-                    <p>Welcome to Lux Rentals!</p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="main-nav container">
         <div class='row'>
-            <div class='control col-sm-12'>
+            <div class='col-sm-4'>
+                <img class="img-responsive" src="img/Lux-rentals.png" style="width:250px; height:50px;">
+            </div>
+            <div class='control col-sm-8'>
                 <ul>
-                    <li><a href="HOME">Home</a></li>
-                    <li><a href="ABOUT">About Us</a></li>
-                    <li><a href="PRODUCTS">Products</a></li>
-                    <li><a href="CONTACT">Contact</a></li>
+                    <li><a href="file:///Users/Kordia/Desktop/Lux-Wheels/home_page.html">Home</a></li>
+                    <li><a href="file:///Users/Kordia/Desktop/Lux-Wheels/index.html">About Us</a></li>
+                    <li><a href="file:///Users/Kordia/Desktop/Lux-Wheels/products.html">Products</a></li>
+                    <li><a href="file:///Users/Kordia/Desktop/Lux-Wheels/contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="contact container">
-        <div class='row'>
-            <div class='framework col-sm-12'>
-                <form action="http://www.example.com/review.php" method="get">
-                <fieldset>
-                    <legend>
-                        Your Details:
-                    </legend>
-                    <label>
-                        Name:
-                        <input type='name' name="name" size="30" maxlenghth="100">
-                    </label>
-                    <br>
-                    <label>
-                        Email:
-                        <input type='email' name="email" size="30" maxlenghth="100">
-                    </label>
-                    <br>
-                    <label>
-                        Telephone:
-                        <input type='number' name="number" size="30" maxlenghth="100">
-                    </label>
-                </fieldset>
-                <br>
-                <fieldset>
-                    <legend>
-                        Your Review:
-                    </legend>
-                    <p>
-                        <label for="hear-about">
-                            How did you hear about us?
+        <div class="row">
+            <div class="framework col-sm-12">
+                <form>
+                    <fieldset>
+                        <div class="name col-sm-12">
+                            <legend>
+                                <H3>Your Details:</H3>
+                            </legend>
+                        </div>
+                        <div class="name col-sm-12">
+                            <label>
+                                <h4>Name:</h4>
+                                <input type="name" name="name" size={30} maxlenghth={100} />
+                            </label>
+                        </div>
+                        <div class=" col-sm-12">
+                            <h4>Email:</h4>
+                            <input type="email" name="email" size={30} maxlenghth={100} />
+                        </div>
+                        <div class="Phone col-sm-12">
+                            <label>
+                                <h4>Telephone:</h4>
+                                <input type="number" name="number" size={30} maxlenghth={100} />
+                            </label>
+                        </div>
+                        <div class=" col-sm-12">
+                            <legend>
+                                <h3>Your Review:</h3>
+                            </legend>
+                        </div>
+                        <div class="col-sm-12">
+                            <label htmlFor="hear-about">
+                                <p>How did you hear about us?</p>
+                            </label>
+                        </div>
+                        <div class="col-sm-12">
+                            <select name="referrer" id="hear-about">
+                                <option value="google">Google</option>
+                                <option value="friend">Friend</option>
+                                <option value="advert">Advert</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </fieldset> 
+                    <div class="col-sm-12">
+                        <label htmlFor="comments">
+                            <h4>Comments:</h4>
                         </label>
-                
-                        <select name="referrer" id="hear-about">
-                            <option value="google">Google</option>
-                            <option value="friend">Friend</option>
-                            <option value="advert">Advert</option>
-                            <option value="other">Other</option>
-                        </select>
-                        </fieldset>
-                    </p>
-                    <p>
-                        <label for="comments">
-                        Comments:
-                        </label>
-                        <br>
-                        <textarea rows="4" cols="40" id="comments">
-                        </textarea>
-                    </p>
-                    <label>
-                        <input type="checkbox" name="subscribe" checked="checked" />
-                        Sign me up for email updates
-                    </label>
-                    <br>
-                    <div class="submit">
-                        <input type="submit" value="Submit review" />
-                     </div>
-                </fieldset>
+                    </div>
+                    <div class="col-sm-12">
+                        <textarea rows={4} cols={40} id="comments"></textarea>
+                    </div>
+                    <div class="submit col-sm-12">
+                        <input type="submit" defaultValue="Submit review" >
+                    </div>
                 </form>
             </div>
         </div>
@@ -110,14 +88,32 @@
     <div class="bottom">
         <div class='inside container'>
             <div class='row'>
-                <div class='cell col-sm-4'>
-                    <p>Phone: 334-333-4569</p>
+                <div class='Menu col-sm-4'>
+                    <h3>Main Menu:</h3>
+                    <ul>
+                        <li><a href="file:///Users/Kordia/Desktop/Lux-Wheels/home_page.html">Home</a></li>
+                        <li><a href="file:///Users/Kordia/Desktop/Lux-Wheels/index.html">About Us</a></li>
+                        <li><a href="file:///Users/Kordia/Desktop/Lux-Wheels/products.html">Products</a></li>
+                        <li><a href="file:///Users/Kordia/Desktop/Lux-Wheels/contact.html">Contact</a></li>
+                    </ul>
                 </div>
-                <div class='email col-sm-4'>
-                    <p>Email: luxrentals603@gmail.com</p>
+                <div class='hours col-sm-4'>
+                    <h3>Hours Open:</h3>
+                    <ul>
+                        <li>Monday 8:00am - 5:00pm</li>
+                        <li>Tuesday  8:00am - 5:00pm</li>
+                        <li>Wednesday 8:00am - 5:00pm</li>
+                        <li>Thursday 8:00am - 5:00pm</li>
+                        <li>Friday 8:00am - 5:00pm</li>
+                    </ul>
                 </div>
-                <div class='address col-sm-4'>
-                    <p>Address: 454 Mulberry Ln. San Diego, CA</p>
+                <div class='company col-sm-4'>
+                    <h3>Contact:</h3>
+                    <ul>
+                        <li><i class="fas fa-mobile-alt"> Phone: 334-333-4569</i></li>
+                        <li><i class="fas fa-envelope"> Email: luxrentals603@gmail.com</i></li>
+                        <li><i class="far fa-address-card"> Address: 454 Mulberry Ln. San Diego, CA</i></li>
+                    </ul>
                 </div>
             </div>
         </div>

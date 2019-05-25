@@ -4,53 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Sign In</title>
 </head>
 <body>
-    <div class="contact container">
-        <div class='row'>
-            <div class='framework col-sm-12'>
-                <form action="http://www.example.com/review.php" method="get">
-                    <fieldset>
-                        <div class="sign col-sm-12">
-                            <legend>
-                                Sign In
-                            </legend>
-                        </div>
-                        <div class="first col-sm-12">
-                            <label>
-                                First Name:
-                                <input type='name' name="name" size="30" maxlenghth="100">
-                            </label>
-                        </div>
-                        <div class="last col-sm-12">
-                            <label>
-                                Last Name:
-                                <input type='name' name="name" size="30" maxlenghth="100">
-                            </label>
-                        </div>
-                        <div class="email col-sm-12">
-                            <label>
-                                Email Address:
-                                <input type='name' name="name" size="30" maxlenghth="100">
-                            </label>
-                       </div>
-                        <div class="pass col-sm-12">
-                            <label>
-                                Password:
-                                <input type='name' name="name" size="30" maxlenghth="100">
-                            </label>
-                        <div class="re-type col-sm-12">
-                            <label>
-                                ReType Password:
-                                <input type='name' name="name" size="30" maxlenghth="100">
-                            </label>
-                        </div>
-                        <div class="sum col-sm-12">
-                         <input class="OrderSubmit" id="submitButton" type="submit" value="Submit" />
-                        </div>
-                    </fieldset>
-                </form>
+    <div class="sign container">
+        <div class="row">
+            <div class="square col-sm-12">
+                <h2>Welcome to Lux-Rentals Please Sign-In!</h2>
+            </div>
+            <div class="user col-sm-12">
+                <input type="username" placeholder = "Username"/>
+            </div>
+            <div class="pass col-sm-12">
+                <input id = "pass" type="Password" placeholder = "Password"/>
+            </div>
+            <div class="confirm col-sm-12">
+                <input id = "confirm" type="Password" placeholder = "Confirm Password"/>
+            </div>
+            <div class="confirm col-sm-12">
+                <input id = "email" type="email" placeholder = "Email"/>
+            </div>
+            <div class="address col-sm-12">
+                <input id = "email-2" type="email" placeholder = "Confirm Email"/>
+            </div>
+            <div class="enter col-sm-12">
+                <button class = "Enter">Enter</button>
             </div>
         </div>
     </div>

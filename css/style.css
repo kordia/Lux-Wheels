@@ -1,7 +1,37 @@
-*body{
-    background-color : grey;
+.boarder {
+    margin-right: 20px;
+}
+.greet p{
+    font-size: 60px;
+    color: red;
+    margin-right: 30px;
+}
+.trademark{
+  margin-right: 40px;
 }
 
+.slogan p{
+   color: red;
+   font-size: 40px;
+  
+}
+.main-nav{
+    margin-top: 20px;
+}
+.letter h3{
+    color: red;
+}
+.letter{
+    margin-right:30px;
+    margin-bottom: 20px;
+}
+.section{
+    margin-right:30px;
+}
+
+.money{
+    padding-left: 20px;
+}
 .profile{
     color: red;
     margin-top: 20px;
@@ -17,9 +47,36 @@
     color: red;
     text-decoration: none;
 }
-
-
-
+.set{
+    padding-left: 2px;
+}
+.set a{
+    color: black;
+}
+.set a:hover{
+    color: red;
+    text-decoration: none;
+}
+.bottom a:hover{
+    color: red;
+}
+.bottom li{
+    list-style: none;
+    color:black
+    text-decoration: none;
+}
+.bottom li a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+.inside h3{
+    color:red;
+    margin-right: 20px;
+}
+.inside ul{
+    padding-left: 0px;
+}
 .main-nav li a{
     text-align: none;
     text-decoration: none;
@@ -123,6 +180,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.awards{
+    margin-right:30px;
+}
 .awards img{
     margin-bottom: 20px;
 }
@@ -157,11 +217,20 @@
     margin-top: 20px;
 }
 @media (min-width: 768px){
-    body{
-        background: grey;
+ 
+    .bottom a:hover{
+        color: red;
     }
-
-   
+    .bottom li{
+        list-style: none;
+        color:white;
+        text-decoration: none;
+    }
+    .bottom li a{
+        text-decoration: none;
+        list-style: none;
+        color:white;
+    }
     .news h2{
         color: red;
     }
@@ -179,6 +248,12 @@
     }
     .main-nav{
         margin-right: 40px;
+        margin-bottom: 10px;
+    }
+    .topper{
+        margin-right: 65px;
+        padding-bottom: 20px;
+
     }
  
   
@@ -251,6 +326,7 @@
     }
     .contact{
         margin-top: 30px;
+        margin-right: 44px;
     }
 
     .pic-1{
@@ -335,7 +411,7 @@
         margin-right: 20px;
     }
     .bottom{
-        background: black;
+        background:black;
     }
 
     .inside{
@@ -346,6 +422,37 @@
         padding-bottom: 20px;
     }
 }
+.sign{
+    margin-top: 20px;
+}
+.user{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.contact{
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.about p{
+    font: 20px;
+}
+.main{
+    margin-right: 20px;
+}
+.info{
+    margin-right: 20px;
+}
+.info p{
+    font-size: 18px;
+}
+.top{
+    margin-top: 35px;
+}
 
-
+.submit{
+    margin-top: 20px;
+}
+.boarder{
+    margin-bottom: 20px;
+}
